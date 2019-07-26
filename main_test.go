@@ -3,7 +3,7 @@ package main
 import "testing"
 
 func Test_1(t *testing.T) {
-	t.Error("fail")
+	t.Log("fail")
 }
 
 func Test_2(t *testing.T) {
